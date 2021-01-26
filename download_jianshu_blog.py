@@ -95,7 +95,7 @@ child_dir_list = os.listdir(src_path) # is a list
 for dir_name in child_dir_list:
     child_dir_src = src_path + os.sep + dir_name # src_path/Haskell
     if os.path.isfile(child_dir_src):
-        pass
+        continue
     elif os.path.isdir(child_dir_src):
         for file_name in os.listdir(child_dir_src): # file_name = H1.md
             child_dir_dst = dst_path + os.sep + dir_name + os.sep + file_name.split('.')[0] # dst_path/Haskell/H1
