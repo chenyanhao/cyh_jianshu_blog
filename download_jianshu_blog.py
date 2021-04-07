@@ -81,7 +81,7 @@ dst_path (dir)
     - R1 (dir)
         - R1.md (file)
 '''
-src_path = '/Users/yj/Downloads/user-1936544-1611563694'
+src_path = '/Users/yj/cyh_jianshu_blog/jianshu原格式'
 dst_path = '/Users/yj/cyh_jianshu_blog'
 
 if src_path.endswith('/'):
